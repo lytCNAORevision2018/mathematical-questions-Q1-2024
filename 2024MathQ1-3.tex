@@ -1,0 +1,129 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{ctex}
+\usepackage{amsmath,amsbsy,amsfonts}
+\usepackage{geometry}
+\geometry{left=2.0cm,right=2.0cm,top=2.5cm,bottom=2.5cm}
+
+
+\title{2024年寒假特制试卷：丙卷}
+\author{一只波兰立陶宛联邦球}
+\date{2024年2月9日}
+
+\begin{document}
+\maketitle
+\section*{注意事项}
+本试卷共15题，每题10分，卷面总分150分。考试时间4小时。
+范围：高等数学。
+\subsection*{1}\noindent 函数
+\begin{equation*}
+	f\left(x,y\right)=x^{2}+\left(y-1\right)^{2}\quad\left(x\neq0\right)
+\end{equation*}
+在某个椭圆上有最小值1。求该椭圆(假定它的对称中心位于坐标原点、焦点位于横轴上)的最小面积及其方程。
+\subsection*{2}\noindent 求所有的连续可微函数$f:\left[0,1\right]\rightarrow\left(0,\infty\right)$，使得：
+\begin{equation*}
+	\frac{f\left(1\right)}{f\left(0\right)}=e
+\end{equation*}并且
+\begin{equation*}
+	\int_{0}^{1}\frac{1}{f^2(x)}\mathrm{d}x+\int_{0}^{1}[f^{\prime}\left(x\right)]^2\mathrm{d}x\leq2
+\end{equation*}
+\subsection*{3}\noindent 设$f,g:\left[0,1\right]\rightarrow\left[0,1\right]$，$f,g$均连续且$f(x)$单调不减。求证：
+\begin{equation*}
+	\int_{0}^{1}f\left[g\left(x\right)\right]\mathrm{d}x\leq\int_{0}^{1}f\left(x\right)\mathrm{d}x+\int_{0}^{1}g\left(x\right)\mathrm{d}x
+\end{equation*}
+\subsection*{4}\noindent 试求：
+\begin{equation*}
+	\lim\limits_{n\rightarrow\infty}n^{\frac{a}{b}}\int_{0}^{1}\frac{f\left(x\right)}{1+n^{a}x^{b}}\mathrm{d}x
+\end{equation*}
+其中，$a>0,b>1$且均为实数，$f:\left[0,1\right]\rightarrow\mathbb{R}$为连续函数。
+\subsection*{5}\noindent 记
+\begin{equation*}
+	J_{n}\left(x\right)=\frac{1}{\pi}\int_{0}^{\pi}\cos\left(n\phi-x\sin\phi\right)\mathrm{d}x
+\end{equation*}
+为$n$阶Bessel函数。求证：
+\begin{equation*}
+	\int_{0}^{\pi}tJ_{0}\mathrm{d}x=xJ_{1}\left(x\right)
+\end{equation*}
+\subsection*{6}\noindent 设函数$f(x)>0$在实轴上连续。如果对于任意$t\in\mathbb{R}$有：
+\begin{equation*}
+	\int_{-\infty}^{+\infty}\exp\left(-|t-x|\right)f\left(x\right)\mathrm{d}x\leq1
+\end{equation*}
+求证：对于任意$a<b$，有：
+\begin{equation*}
+	\int_{a}^{b}f\left(x\right)\mathrm{d}x\leq\frac{1}{2}\left(b-a+2\right)
+\end{equation*}
+\subsection*{7}\noindent 设$f\left(x,y\right)$在单位圆域($D:=\left\{\left(x,y\right)|x^2+y^2\leq 1\right\}$)上具有连续的二阶偏导数，且：
+\begin{equation*}
+\left(\frac{\partial^2 f}{\partial x^2}\right)^{2}+\left(\frac{\partial^2 f}{\partial y^2}\right)^{2}+\left(\frac{\partial^2 f}{\partial x\partial y}\right)^{2}\leq M
+\end{equation*}
+$f\left(0,0\right)=f_{x}\left(0,0\right)=f_{y}\left(0,0\right)=0$，证明：
+\begin{equation*}
+	\left|\iint_{D}f\left(x,y\right)\mathrm{d}x\mathrm{d}y\right|\leq\frac{\pi\sqrt{M}}{4}
+\end{equation*}
+\subsection*{8}\noindent 设$f\left(x\right)$在$\left[0,1\right]$上连续，$\int_{0}^{1}f\left(x\right)\neq 0$。求证：在$\left[0,1\right]$上存在三个不同的零点$x_{1}\sim x_{3}$，使得：
+\begin{equation*}
+	\frac{\pi}{8}\int_{0}^{1}f\left(x\right)\mathrm{d}x=\left\{
+		\begin{aligned}
+		\frac{x_{3}}{1+x_{1}^2}\int_{0}^{x_{1}}f\left(t\right)\mathrm{d}t+f\left(x_{1}\right)\arctan x_{1}\\
+		\frac{1-x_{3}}{1+x_{2}^2}\int_{0}^{x_{2}}f\left(t\right)\mathrm{d}t+f\left(x_{2}\right)\arctan x_{2}\\	
+	\end{aligned}
+	\right.
+\end{equation*}
+\subsection*{9}\noindent 若$f\left(x\right)$在$\left[0,1\right]$上连续，求证：
+\begin{equation*}
+	\int_{0}^{\pi}xf\left(\sin x\right)\mathrm{d}x=\frac{\pi}{2}\int_{0}^{\pi}f\left(\sin x\right)\mathrm{d}x
+\end{equation*}
+并求：
+\begin{equation*}
+	\int_{0}^{\pi}\frac{x\sin^{2n}x}{\sin^{2n}x+\cos^{2n}x}\mathrm{d}x
+\end{equation*}
+\subsection*{10}\noindent 设$f\left(x\right)$在$\left[a,b\right]$上二次可微，且该函数的二阶导数$f^{\prime\prime}\left(x\right)$在$\left[a,b\right]$上Riemann可积。记：
+\begin{equation*}
+	B_{n}=\int_{a}^{b}f\left(x\right)\mathrm{d}x-\frac{b-a}{n}f\left[a+\left(2i-1\right)\frac{b-a}{2n}\right]
+\end{equation*}
+求证：
+\begin{equation*}
+	\lim\limits_{n\rightarrow\infty}n^2B_{n}=\frac{\left(b-a\right)^2}{24}\left[f\left(b\right)-f\left(a\right)\right]
+\end{equation*}
+\subsection*{11}考虑二阶偏微分方程：
+\begin{equation*}
+	x^2\frac{\partial^2 z}{\partial x^2}+2xy\frac{\partial^2 z}{\partial x\partial y}+y^2\frac{\partial^2 z}{\partial y^2}=0
+\end{equation*}
+取：
+\begin{equation*}
+	\left\{
+	\begin{aligned}
+		u&=\frac{y}{x}\\
+		v&=xy
+	\end{aligned}
+	\right.
+\end{equation*}
+为自变量，$w=x+y+z$为函数。将此方程进行变换。
+\subsection*{12}\noindent 通过将函数\begin{equation*}
+	f(x)=\frac{\pi}{2}\frac{\exp\left(x\right)+\exp(-x)}{\exp\left(\pi\right)-\exp\left(-\pi\right)}
+\end{equation*}
+在$\left[-\pi,\pi\right]$上展开成傅里叶级数，计算：
+\begin{equation*}
+	\sum_{i=1}^{\infty}\frac{\left(-1\right)^{n}}{1+4n^2}
+\end{equation*}
+
+\subsection*{13}\noindent 设二元函数$f\left(x,y\right)$在平面上具有二阶连续偏导数。对于任意角度$\alpha$，定义一元函数$g_{\alpha}\left(t\right)=f\left(t\cos\alpha,t\sin\alpha\right)$。对于$g_{\alpha}\left(t\right)$的所有驻点，对应二阶导数恒为正。求证：该函数在坐标原点处取得极小值。
+\subsection*{14}
+计算极限或积分：
+\paragraph{$\left(1\right)$}\begin{equation*}
+	L_{1}=\lim\limits_{x\rightarrow 0}\frac{\cos x-\exp\left(-\frac{x^2}{2}\right)}{x^2\left[x+\ln\left(1-x\right)\right]}
+\end{equation*}
+\paragraph{$\left(2\right)$}\begin{equation*}
+	L_{2}=\lim\limits_{x\rightarrow 0}\frac{1+\frac{1}{2}x^2-\sqrt{1+x^2}}{\left[\cos x-\exp\left(x^2\right)\right]\sin x^2}
+\end{equation*}
+\paragraph{$\left(3\right)$}\begin{equation*}
+	L_{3}=\lim\limits_{n\rightarrow\infty}\left[\sqrt[n+1]{\left(n+1\right)!}-\sqrt[n]{n}\right]
+\end{equation*}
+\paragraph{$\left(4\right)$}\begin{equation*}
+	I_{4}\int\frac{x^2}{\left(x^2+2x+2\right)^2}\mathrm{d}x
+\end{equation*}
+\paragraph{$\left(5\right)$}
+\begin{equation*}
+	I_{5}=\int\frac{x\mathrm{d}x}{\left(x^2-3x+2\right)\sqrt{x^2-4x+3}}
+\end{equation*}
+\subsection*{15}\noindent 在空间直角坐标系中，求以三个坐标轴的正半轴为母线的半圆锥面方程。
+\end{document}
