@@ -1,0 +1,128 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{ctex}
+\usepackage{amsmath,amsbsy,amsfonts}
+\usepackage{geometry}
+\geometry{left=2.0cm,right=2.0cm,top=2.5cm,bottom=2.5cm}
+\title{2024年寒假特制试卷：戊卷}
+\author{一只波兰立陶宛联邦球}
+\date{2024年2月17日}
+\begin{document}
+\maketitle
+\section*{注意事项}
+本试卷共15题，每题10分，卷面总分150分。考试时间4小时。
+范围：高等数学(1-10题)、线性代数(11-13题)、概率论与数理统计(14-15题)。
+\subsection*{1}\noindent 设函数$f\in C^{[a,b]}$，在$\left(a,b\right)$上二次可微。\\
+\noindent$\left(1\right)$对于任何$a<c<b$，存在$\xi=\xi\left(c\right)\in\left(a,b\right)$，使得：\begin{equation*}
+	\frac{1}{2}f^{\prime\prime}\left(\xi\right)=\frac{f\left(a\right)}{\left(a-b\right)\left(a-c\right)}+\frac{f\left(b\right)}{\left(b-c\right)\left(b-a\right)}+\frac{f\left(c\right)}{\left(c-a\right)\left(c-b\right)}
+\end{equation*}
+\noindent$\left(2\right)$如果设$f\left(a\right)=f\left(b\right)=0$，并且存在$a<c<b$满足$f\left(c\right)\neq0$，那么至少存在一个实数$\zeta\in\left(a,b\right)$，使得$f\left(c\right)f^{\prime\prime}\left(\zeta\right)<0$
+\subsection*{2}\noindent 如果$\lim\limits_{x\rightarrow0}f\left(x\right)=\lim\limits_{x\rightarrow0}g\left(x\right)=0$。求证：
+\begin{equation*}
+	\lim\limits_{x\rightarrow0}\frac{\left[1+f\left(x\right)\right]^{\frac{1}{f\left(x\right)}}-\left[1+g\left(x\right)\right]^{\frac{1}{g\left(x\right)}}}{f\left(x\right)-g\left(x\right)}=-\frac{e}{2}
+\end{equation*}
+\subsection*{3}\noindent$\left(1\right)$设$f\left(x\right)$在$\left[0,1\right]$上可积，求证：
+\begin{equation*}
+	\int_{0}^{\frac{\pi}{2}}\int_{0}^{\frac{\pi}{2}}f\left(\cos\phi\cos\psi\right)\cos\psi\mathrm{d}\phi\mathrm{d}\phi=\frac{\pi}{2}\int_{0}^{1}f\left(t\right)\mathrm{d}t
+\end{equation*}
+\noindent$\left(2\right)$$\left|\alpha\right|<\frac{\pi}{2}$，求积分：
+\begin{equation*}
+	\int_{0}^{\frac{\pi}{2}}\int_{0}^{\frac{\pi}{2}}\frac{\cos\theta\mathrm{d}\theta\mathrm{d}\phi}{\cos\left(a\cos\theta\cos\phi\right)}
+\end{equation*}
+\noindent$\left(3\right)$求积分：
+\begin{equation*}
+	\int_{0}^{\frac{\pi}{2}}\int_{0}^{\frac{\pi}{2}}\frac{\sin\theta\log\left(2-\sin\theta\cos\phi\right)}{2-2\sin\theta\cos\phi+\sin^2\theta\cos^2\phi}\mathrm{d}\theta\mathrm{d}\phi
+\end{equation*}
+\subsection*{4}\noindent 求两曲面
+\begin{equation*}
+	\begin{aligned}
+		&3x^2+2y^2=2z+1\\&x^2+y^2+z^2-4y-2z+2=0
+	\end{aligned}
+\end{equation*}
+在其交线上的点$\left(1,1,2\right)$处法线的夹角，以及交线在该点的切线方程。
+\subsection*{5}\noindent$\left(1\right)$计算：
+\begin{equation*}
+	I_{1}=\iiint_{\Omega}\left(x^3+y^3+z^3\right)\mathrm{d}x\mathrm{d}y\mathrm{d}z
+\end{equation*}
+其中，$\Omega$表示曲面$x^2+y^2+z^2-2a\left(x+y+z\right)+2a^2=0\left(a>0\right)$围成的区域。\\
+\noindent$\left(2\right)$
+
+\begin{equation*}
+	I_{2}=\iiint_{V}\frac{z}{\sqrt{x^2+y^2}}\mathrm{d}x\mathrm{d}y\mathrm{d}z
+\end{equation*}
+其中，$V$是平面图形$D:=\left\{\left(x,y,z\right)|x=0,y\geq0,z\geq0,y^2+z^2\leq1,2y-z\leq1\right\}$围绕$z$轴旋转一周生成的立体。
+
+\subsection*{6}设$f\left(x\right)$的一阶导数在$\left[a,b\right]$上连续。求证：
+\begin{equation*}
+	\int_{a}^{b}\left(\frac{1}{b-a}\int_{a}^{b}f\left(t\right)\mathrm{d}t-f\left(t\right)\right)^2\mathrm{d}x\leq\frac{1}{3}\left(b-a\right)^2\int_{a}^{b}\left[f^{\prime}\left(x\right)\right]^2\mathrm{d}x
+\end{equation*}
+\subsection*{7}\noindent 求椭球面\begin{equation*}
+	\frac{x^2}{96}+y^2+z^2=1
+\end{equation*}
+上的点与平面$3x+4y+12z=228$的最近和最远距离，并求出到达最值的点。
+\subsection*{8}\noindent$\left(1\right)$设函数$u\left(x\right)$在区间$I=[0,1]$上连续，$u^{\prime}\left(x\right)$在区间$I$上绝对可积。求证：
+\begin{equation*}
+	\sup\limits_{x\in I}\left|u\left(x\right)\right|\leq\int_{0}^{1}\left|u\left(x\right)\right|\mathrm{d}x+\int_{0}^{1}\left|u^{\prime}\left(x\right)\right|\mathrm{d}x
+\end{equation*}
+\noindent$\left(2\right)$二元函数$u=u\left(x,y\right)$在区域$\Omega=[0,1]\times[0,1]$上连续，且\begin{equation*}
+	\frac{\partial u}{\partial x},\frac{\partial u}{\partial y},\frac{\partial^2 u}{\partial x\partial y}
+\end{equation*}
+均在$\Omega$上绝对可积。求证：
+\begin{equation*}
+	\sup\limits_{x\in I}\left|u\left(x,y\right)\right|\leq\iint_{\Omega}\left|u\left(x,y\right)\right|\mathrm{d}x\mathrm{d}y+\iint_{\Omega}\left(\left|\frac{\partial u\left(x,y\right)}{\partial x}+\frac{\partial u\left(x,y\right)}{\partial y}\right|\right)\mathrm{d}x\mathrm{d}y+\iint_{\Omega}\left|\frac{\partial^2 u\left(x,y\right)}{\partial x\partial y}\right|\mathrm{d}x\mathrm{d}y
+\end{equation*}
+\subsection*{9}\noindent 证明：方程
+\begin{equation*}
+	\frac{\partial^2 z}{\partial x^2}+2xy^2\frac{\partial z}{\partial x}+2\left(y-y^3\right)\frac{\partial z}{\partial y}+x^{2}y^{2}z=0
+\end{equation*}
+在变换$x=uv,y=1/v$下形式不变。
+\subsection*{10}\noindent$\left(1\right)$求曲线$y^2\left(x-1\right)\left(3-x\right)=x^2$与其渐近线围成区域的面积。\\
+\noindent$\left(2\right)$求曲线$x=a\cos^3t,y=a\sin^3t$绕直线$y=x$旋转所成的曲面表面积。$\left(a>0\right)$\\
+\noindent$\left(3\right)$求球面$x^2+y^2+z^2=a^2$包含在柱面$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1\left(b<a\right)$内的那部分面积。\\
+\noindent$\left(4\right)$求欧拉方程\begin{equation*}
+	x^2\frac{\mathrm{d}^2 y}{\mathrm{d}x^2}+4x\frac{\mathrm{d}y}{\mathrm{d}x}+2y=0\left(x>0\right)
+\end{equation*}
+的通解。\\
+\noindent$\left(5\right)$求微分方程\begin{equation*}
+	\frac{\mathrm{d}^2 x}{\mathrm{d} y^2}+\left(y+\sin x\right)\left(\frac{\mathrm{d}x}{\mathrm{d}y}\right)^3=0
+\end{equation*}
+满足初始条件$y\left(0\right)=0,y^{\prime}\left(0\right)=1.5$的解。
+\subsection*{11}\noindent 已知平面上三条不同直线的方程分别为：
+\begin{equation*}
+	\begin{aligned}
+		l_{1}:&ax+2by+3c=0\\
+		l_{2}:&bx+2cy+3a=0\\
+		l_{3}:&cx+2ay+3b=0\\
+	\end{aligned}
+\end{equation*} 
+请给出这三条直线交于一点的充分必要条件并论证。
+\subsection*{12}\noindent 已知矩阵$A=\begin{pmatrix}
+	1&1&a\\
+	1&a&1\\
+	a&1&1\\
+\end{pmatrix}$ $\beta=\begin{pmatrix}
+	1\\1\\-2
+\end{pmatrix}$
+线性方程组$Ax=\beta$有解但不唯一。请求出$a$的值并将矩阵$A$相似对角化。
+\subsection*{13}\noindent 考虑二次型：
+\begin{equation*}
+	f\left(x_{1},x_{2},x_{3}\right)=ax_{1}^2+ax_{2}^2+\left(a-1\right)x_{3}^2+2x_{1}x_{3}-2x_{2}x_{3}
+\end{equation*}
+\noindent$\left(1\right)$求该二次型的矩阵所有特征值。\\
+\noindent$\left(2\right)$若二次型的规范型为$y_{1}^2+y_{2}^2$，求$a$的值。
+\subsection*{14}\noindent 袋子中有一个红球、两个黑球和三个白球。现在有放回地从袋子中取两次，每次取一个求，以$X$、$Y$和$Z$分别表示两次取球所得到的红球、黑球和白球的个数。试求：
+\noindent$\left(1\right)$ $P\left\{X=1|Z=0\right\}$\\
+\noindent $\left(2\right)$$\left(X,Y\right)$的概率分布。
+\subsection*{15}\noindent 已知概率密度函数：
+\begin{equation*}
+	f\left(x\right)=\left\{
+	\begin{aligned}
+		2\exp\left(-2x+2\theta\right),&x\geq \theta\\
+		0,&x<\theta\\
+	\end{aligned}
+	\right.
+\end{equation*}
+其中，$\theta>0$为未知参数。从总体$X$中抽取简单随机样本构成序列$\left\{X_{n}\right\}$，记$\hat{\theta}=\min\left\{X_{n}\right\}$。\\
+\noindent$\left(1\right)$求总体$X$的分布函数。\\
+\noindent$\left(2\right)$求$\hat{\theta}$的分布函数。\\
+\noindent$\left(3\right)$如果使用$\hat{\theta}$作为$\theta$的估计量，讨论其是否具有无偏性。
+\end{document}
